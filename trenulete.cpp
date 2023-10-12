@@ -130,14 +130,6 @@ int main()
 			if (!ok)
 			{
 				fout << "VAGOANELE NU SE POT MUTA\n" << y << '\n';
-				for (j = 1; j <= k; j++)
-				{
-					for (ok = inc[j]; ok <= sf[j];)
-					{
-						fout << cd[j][ok] << ' ';
-						ok = (ok+1)%n;
-					}
-				}
 				return 0;
 			}
 			else if (y == x)
