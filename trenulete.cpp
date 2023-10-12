@@ -129,7 +129,7 @@ int main()
 			// prin urmare vagoanele nu se pot muta in ordinea ceruta
 			if (!ok)
 			{
-				fout << "VAGOANELE NU SE POT MUTA\n" << y << '\n';
+				fout << "VAGOANELE NU SE POT MUTA\n";
 				return 0;
 			}
 			else if (y == x)
